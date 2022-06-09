@@ -1,0 +1,41 @@
+<html>
+<head>
+    <style>
+    .border{
+        border-style: solid;
+        text-align: center;
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 50px;
+        width: 410px;
+        height: 180px;
+    }
+    .grid-2by3-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 3fr 1fr;
+    }
+    .grid-item{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+    .grid-2by3-container div{
+        display: grid;
+        align-items: center;
+        justify-content:space-around;
+    }
+    </style>
+    <p><a href="http://graymachinewelding.com/EZbend/docs/LittleBullFlyer.pdf" target="_blank">http://graymachinewelding.com/EZbend/docs/LittleBullFlyer.pdf</a>
+	<div class="grid-2by3-container">
+        <div class="grid-item"><img src="1.jpg" alt="90 Tubing Bender" style="width:210px; height: 450px"> </div>
+        <div class="grid-item"><img src="2.jpg" alt="Racer's Brake" style="width:350px; height:300px"> </div>
+        <div class="grid-item"><img src="3.jpg" alt="180 Tubing Bender" style="width:230px; height:350px"> </div>
+        <div class="border">E-Z Bend <br> 90 Tubing Bender</div>
+        <div class="border">E-Z Bend <br> Racer's Brake <p style=font-size:24px>Available in 6' or 6.5'</p></div>
+        <div class="border">E-Z Bend <br> 180 Tubing Bender</div>
+    </div>
+
+</head>  
+</body>
+</html>
